@@ -103,7 +103,8 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-# laptop
+
+# main screen
 set $ws01 "1"
 set $ws02 "2"
 set $ws03 "3"
@@ -124,6 +125,8 @@ workspace $ws06 output DP-3
 workspace $ws07 output DP-3
 workspace $ws08 output DP-3
 workspace $ws09 output DP-3
+
+# workspace 10 / key 0 is special and is assigned to the secondary screen
 workspace $ws10 output eDP-1
 
 # secondary screen
