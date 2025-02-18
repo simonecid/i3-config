@@ -1,0 +1,5 @@
+i3
+py3status
+i3-notifier
+rofi
+xscreensaver
