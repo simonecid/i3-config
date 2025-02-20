@@ -116,15 +116,16 @@ set $ws08 "8"
 set $ws09 "9"
 set $ws10 "10"
 
-workspace $ws01 output DP-3
-workspace $ws02 output DP-3
-workspace $ws03 output DP-3
-workspace $ws04 output DP-3
-workspace $ws05 output DP-3
-workspace $ws06 output DP-3
-workspace $ws07 output DP-3
-workspace $ws08 output DP-3
-workspace $ws09 output DP-3
+workspace $ws01 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws01 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws02 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws03 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws04 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws05 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws06 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws07 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws08 output HDMI-1 DP-1 DP-2 DP-3 DP-4
+workspace $ws09 output HDMI-1 DP-1 DP-2 DP-3 DP-4
 
 # workspace 10 / key 0 is special and is assigned to the secondary screen
 workspace $ws10 output eDP-1
